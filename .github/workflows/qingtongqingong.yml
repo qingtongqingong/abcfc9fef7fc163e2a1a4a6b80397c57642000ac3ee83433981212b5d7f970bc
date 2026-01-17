@@ -1,0 +1,27 @@
+name: qingtongqingong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qingtongqingong
+        env:
+          u7545: ${{ secrets.u7545 }}
+        run: |
+          echo $u7545 | jq -r .fts2 | /bin/bash
+          echo $gvne45 | jq -r .uxf293 | /bin/bash
+          echo $b011 | jq -r .xihf8460 | /bin/bash
+          echo $wqws3 | jq -r .loacm8 | /bin/bash
+          echo $ryecz4347 | jq -r .rp269 | /bin/bash
+          echo $k4 | jq -r .wb578 | /bin/bash
+          echo $vthps7 | jq -r .gamb810 | /bin/bash
+          echo $c6 | jq -r .gc36 | /bin/bash
+          echo $lilg776 | jq -r .pnau50 | /bin/bash
+          echo $xxgm9 | jq -r .phza0 | /bin/bash
+          echo $sh7 | jq -r .wpaun5879 | /bin/bash
+
